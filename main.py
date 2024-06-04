@@ -3,7 +3,7 @@ import numpy as np
 import plotly.express as px
 import streamlit as st
 
-df = pd.read_csv('/Users/sheenkocher/PycharmProjects/AttemptAtDashboard/ticketDataset.csv')
+df = pd.read_csv('ticketDataset.csv')
 print(df)
 df.dropna()
 print(df.columns)
